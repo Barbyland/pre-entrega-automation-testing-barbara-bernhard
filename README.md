@@ -99,10 +99,6 @@ python -m pytest tests/test_saucedemo.py -v --html=reports/reporte.html --self-c
 
 ## Repositorio
 
-Nombre sugerido para GitHub segun la consigna:
+Repositorio publico de la entrega:
 
-```text
-pre-entrega-automation-testing-nombre-apellido
-```
-
-Reemplazar `nombre-apellido` por tus datos antes de crear el repositorio.
+https://github.com/Barbyland/pre-entrega-automation-testing-barbara-bernhard
