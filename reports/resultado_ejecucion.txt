@@ -1,0 +1,16 @@
+Ejecucion de pruebas automatizadas SauceDemo
+
+Fecha de ejecucion local: 2026-05-11
+Entorno: Windows, Python 3.10.7
+Comando:
+pre-entrega-final\.venv\Scripts\python.exe -m pytest pre-entrega-final\tests\test_saucedemo.py -q
+
+Resultado:
+3 passed in 20.20s
+
+Detalle:
+- test_login_exitoso_redirige_al_inventario: passed
+- test_catalogo_muestra_productos_y_elementos_principales: passed
+- test_agregar_primer_producto_al_carrito: passed
+
+No se generaron capturas en screenshots/ porque no hubo fallos.

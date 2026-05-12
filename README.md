@@ -88,6 +88,14 @@ python -m pytest tests/test_saucedemo.py -v --html=reports/reporte.html --self-c
 
 - El reporte HTML se genera en `reports/reporte.html`.
 - Si una prueba falla, se guarda una captura automatica en `screenshots/`.
+- Como la ultima ejecucion fue exitosa, la carpeta `screenshots/` no contiene capturas de fallos.
+- El resumen de ejecucion queda documentado en `reports/resultado_ejecucion.txt`.
+
+## Resultado de la ultima ejecucion
+
+```text
+3 passed in 20.20s
+```
 
 ## Repositorio
 
