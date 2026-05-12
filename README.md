@@ -19,15 +19,17 @@ Automatizar flujos basicos de navegacion, login, validacion de catalogo e intera
 ## Estructura
 
 ```text
-pre-entrega-final/
-  tests/
-    test_saucedemo.py
-  utils/
-    saucedemo_helpers.py
-  reports/
-  screenshots/
-  requirements.txt
-  README.md
+tests/
+  conftest.py
+  test_saucedemo.py
+utils/
+  saucedemo_helpers.py
+reports/
+  reporte.html
+  resultado_ejecucion.txt
+screenshots/
+requirements.txt
+README.md
 ```
 
 ## Instalacion
@@ -49,13 +51,13 @@ El archivo `requirements.txt` incluye Selenium, webdriver-manager, Pytest y pyte
 
 ## Ejecucion de pruebas
 
-Desde la carpeta que contiene `pre-entrega-final`:
+Desde la carpeta raiz del repositorio:
 
 ```bash
-pre-entrega-final\.venv\Scripts\python.exe -m pytest pre-entrega-final/tests/test_saucedemo.py -v --html=pre-entrega-final/reports/reporte.html --self-contained-html
+.venv\Scripts\python.exe -m pytest tests/test_saucedemo.py -v --html=reports/reporte.html --self-contained-html
 ```
 
-Tambien se puede ejecutar desde adentro de `pre-entrega-final`:
+Si el entorno virtual ya esta activado, tambien se puede ejecutar:
 
 ```bash
 python -m pytest tests/test_saucedemo.py -v --html=reports/reporte.html --self-contained-html
