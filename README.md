@@ -32,32 +32,20 @@ pre-entrega-final/
 
 ## Instalacion
 
-Desde esta carpeta:
+Desde la carpeta del proyecto, crear y activar un entorno virtual:
 
 ```bash
 py -m venv .venv
 .venv\Scripts\activate
+```
+
+Luego instalar las dependencias:
+
+```bash
 py -m pip install -r requirements.txt
 ```
 
-Las versiones estan fijadas en `requirements.txt` para que la instalacion sea reproducible.
-
-En clase tambien se menciono instalar Selenium y webdriver-manager con:
-
-```bash
-pip install selenium
-pip install webdriver-manager
-```
-
-Este proyecto deja ambos paquetes dentro de `requirements.txt` para instalarlos juntos.
-
-Si usas Linux o macOS, el comando puede ser:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
+El archivo `requirements.txt` incluye Selenium, webdriver-manager, Pytest y pytest-html con versiones fijas para que la instalacion sea reproducible.
 
 ## Ejecucion de pruebas
 
