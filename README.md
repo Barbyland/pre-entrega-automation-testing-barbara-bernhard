@@ -94,7 +94,7 @@ python -m pytest tests/test_saucedemo.py -v --html=reports/reporte.html --self-c
 ## Resultado de la ultima ejecucion
 
 ```text
-3 passed in 20.20s
+3 passed in 42.76s
 ```
 
 ## Repositorio

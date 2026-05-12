@@ -6,7 +6,7 @@ Comando:
 pre-entrega-final\.venv\Scripts\python.exe -m pytest pre-entrega-final\tests\test_saucedemo.py -q
 
 Resultado:
-3 passed in 20.20s
+3 passed in 42.76s
 
 Detalle:
 - test_login_exitoso_redirige_al_inventario: passed
